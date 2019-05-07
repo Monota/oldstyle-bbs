@@ -5,6 +5,8 @@ $navbar-item-color: white;
 $navbar-nav-item-color: white;
 $navbar-nav-item-hover-color: white;
 $navbar-nav-item-active-color: white;
+$nav-header-text-transform: none;
+$label-text-transform: none;
 
 // 2. Import default variables and available mixins.
 @import "../../node_modules/uikit/src/scss/variables-theme.scss";
