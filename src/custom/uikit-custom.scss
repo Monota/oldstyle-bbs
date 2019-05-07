@@ -1,0 +1,17 @@
+// 1. Your custom variables and variable overwrites.
+$logo-color: white;
+$logo-hover-color: white;
+$navbar-item-color: white;
+$navbar-nav-item-color: white;
+$navbar-nav-item-hover-color: white;
+$navbar-nav-item-active-color: white;
+
+// 2. Import default variables and available mixins.
+@import "../../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../../node_modules/uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+$navbar-background: $global-primary-background;
+
+// 4. Import UIkit.
+@import "../../node_modules/uikit/src/scss/uikit-theme.scss";

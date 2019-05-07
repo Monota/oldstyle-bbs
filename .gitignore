@@ -1,3 +1,4 @@
+.idea/**
 dist/main.js
 dist/uikit-custom.css
 node_modules/**
